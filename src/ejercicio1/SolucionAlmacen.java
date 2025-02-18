@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import ejercicio1.DatosAlmacenes.Producto;
+import us.lsi.geometria.Punto2D;
 
 public class SolucionAlmacen {
 	
@@ -17,6 +18,7 @@ public class SolucionAlmacen {
 
 	private SolucionAlmacen(List<Integer> ls) {
 		//TODO
+		Punto2D p = Punto2D.of(0.0, 0.0);
 	}
 	
 	@Override
