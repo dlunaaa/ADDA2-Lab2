@@ -19,6 +19,7 @@ public class SolucionAlmacen {
 	private SolucionAlmacen(List<Integer> ls) {
 		//TODO
 		Punto2D p = Punto2D.of(0.0, 0.0);
+		Punto2D p = Punto2D.of(0.0, 0.0);
 	}
 	
 	@Override
