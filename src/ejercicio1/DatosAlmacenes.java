@@ -38,7 +38,7 @@ public class DatosAlmacenes {
 			String a = v1[0].split("=")[1].trim();
 			
 			return new Almacen(v0[0].trim(), Integer.parseInt(a));
-		}	
+		}	 //hola
 		@Override
 		public String toString() {		
 			return nombre+": "+metroscubicosdisponibles+"; ";
