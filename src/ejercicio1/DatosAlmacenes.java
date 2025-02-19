@@ -28,7 +28,7 @@ public class DatosAlmacenes {
 		@Override
 		public String toString() {		
 			return producto+": "+metroscubicosrequeridos+"; "+incompatibilidades+"; ";
-		}
+		}//hola2s
 	}
 
 	public static record Almacen(String nombre, Integer metroscubicosdisponibles) {
