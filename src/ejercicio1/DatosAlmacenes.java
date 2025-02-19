@@ -59,6 +59,7 @@ public class DatosAlmacenes {
 			if(s.startsWith("//")) {
 				continue;
 				}
+			
 			else if(s.startsWith("A")) {
 				almacenes.add(Almacen.create(s));
 				}
